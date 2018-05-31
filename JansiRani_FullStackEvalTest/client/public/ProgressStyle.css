@@ -1,0 +1,57 @@
+.pageLink { cursor: pointer; text-decoration: underline; color: blue;}
+.pager{
+    margin-top: 12px;
+    margin-bottom: 12px; 
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.radio{
+    width: 20px;
+}
+#transaction {
+    display:table;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+#transaction td, #transaction th {
+    border: 1px solid #ddd;
+    padding: 2px;
+}
+.container {
+    margin: 50px auto;
+    
+    }
+#transaction tr:nth-child(even){background-color: #f2f2f2;}
+
+#transaction tr:hover {background-color: #ddd;}
+
+#transaction th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(76, 127, 175);
+    color: white;
+}
+
+
+.filterLabel{
+    margin: 12px;
+   
+}
+.filterLabel button{
+    height: 10px;
+}
+.filterKeyValue
+{
+    margin: 12px;
+}
+.searchControl{
+    width: 50%;
+    height: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
